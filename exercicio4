@@ -1,0 +1,6 @@
+#Declaração da variável Fahrenheit com Entrada de dado fornecido pelo usuário
+temp_fahrenheit = input("Digite uma temperatura em Fahrenheit: ")
+#Conversão de Fahrenheit para Celsius
+temp_celsius = (float(temp_fahrenheit) - 32) * 5 / 9
+#Saída de dados para usuário
+print("A temperatura em celsius é ", temp_celsius)
