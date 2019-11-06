@@ -1,0 +1,4 @@
+#Declaração de variável com Dados fornecidos pelo usuário
+nomedamae = input("Qual o nome de sua mãe? ")
+nomedopai = input("Qual o nome do seu pai? ")
+print("Bom dia Sra. ", nomedamae, " e Bom dia Sr. ", nomedopai)
