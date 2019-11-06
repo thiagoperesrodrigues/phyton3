@@ -1,0 +1,9 @@
+#Declaração de variável com dado fornecido pelo usuário
+cont_segundos = int(input("Por favor, entre com o número de segundos que deseja converter: "))
+#Conversão de segundos para horas + minutos + segundos
+dias = cont_segundos // 86400
+horas = (cont_segundos % 86400) // 3600
+minutos = (cont_segundos % 3600)//60
+segundos = (cont_segundos % 3600)%60
+#Saída de dados
+print(dias, "dias," ,horas, "horas,", minutos, "minutos e", segundos, "segundos.")
