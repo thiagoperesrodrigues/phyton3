@@ -1,0 +1,8 @@
+#Entrada de dados
+lado = input("Digite o valor de um dos lados do quadrado: ")
+conv_string = int(lado)
+#Cálculo de perímetro e área
+perimetro = conv_string * 4
+area = conv_string ** 2
+#Saída de dados
+print("perímetro:", perimetro, "- área:", area)
