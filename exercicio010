@@ -1,0 +1,17 @@
+#Entrada de dados
+a = float(input("Digite o valor de a "))
+b = float(input("Digite o valor de b "))
+c = float(input("Digite o valor de c "))
+
+#Processamento e saída de dados
+delta = b**2-4*a*c
+if delta == 0:
+    raiz = (- b + delta**0.5)/(2*a)
+    print("Sua equação tem apenas uma raiz e é", raiz)
+else:
+    if delta < 0:
+        print("Sua equação não possui raiz real")
+    else:
+        raiz1 = (- b + delta**0.5)/(2*a)
+        raiz2 = (- b - delta**0.5)/(2*a)
+        print("Os valores das raizes são", raiz1, "e", raiz2)
